@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema6</title>
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div>
+                <a href="../index.html"><img src="../imagenes/hogar.png" alt=""></a>
+                <a href="p5.html"><img src="../imagenes/flecha_izquierda.png" alt="" class="flecha_izq"></a>
+            </div>
+            <h2 class="modak-regular">Problema 6</h2>
+            <a href="p7.html"><img src="../imagenes/flecha_derecha.png" alt=""></a>
+        </div>
+    </header>
+    <div class="descripcion">
+    <p>Se desea calcular la potencia eléctrica de un circuito. Realice una pagina web con css y js que representen el algo ritmo para resolver el problema. Considere que: P = V*I y V = R*I.</p>
+    </div>
+    <form class="interfaz">
+        <div class="entrada">
+            <label for="corriente">Corriente en amperios</label>
+            <br>
+            <input type="number" id="corriente" placeholder="corriente">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="resistencia">Resistencia en ohmios</label>
+            <br>
+            <input type="number" id="resistencia" placeholder="resistencia">
+        </div>
+        <br>
+        <button type="button" onclick="potencia()">Calcular</button>
+    </form>
+    <div class="resultado">
+        <p id="resul"></p>
+    </div>
+    <footer>
+            <p>Cinthia Guadalupe Nuñez Diaz 4G</p>
+    </footer>
+    <script src="../scripts/funciones.js"></script>
+</body>
+</html>

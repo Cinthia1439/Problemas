@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema10</title>
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div>
+                <a href="../index.html"><img src="../imagenes/hogar.png" alt=""></a>
+                <a href="p9.html"><img src="../imagenes/flecha_izquierda.png" alt="" class="flecha_izq"></a>
+            </div>
+            <h2 class="modak-regular">Problema 10</h2>
+            <a href="p11.html"><img src="../imagenes/flecha_derecha.png" alt=""></a>
+        </div>
+    </header>
+    <div class="descripcion">
+    <p>Realice una pagina web con css y js para determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la llamada y en el costo por minuto. Represente la solución mediante el diagrama de flujo y pseudocódigo.</p>
+    </div>
+    <form class="interfaz">
+        <div class="entrada">
+            <label for="costo">Costo por minuto</label>
+            <br>
+            <input type="number" id="costo" placeholder="costo de llamada">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="tiempo">Tiempo de la llamada</label>
+            <br>
+            <input type="number" id="tiempo" placeholder="tiempo en minutos">
+        </div>
+        <br>
+        <button type="button" onclick="total()">Calcular</button>
+    </form>
+    <div class="resultado">
+        <p id="resul"></p>
+    </div>
+    <footer>
+            <p>Cinthia Guadalupe Nuñez Diaz 4G</p>
+    </footer>
+    <script src="../scripts/funciones.js"></script>
+</body>
+</html>

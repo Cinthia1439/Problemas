@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema1</title>
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <a href="../index.html"><img src="../imagenes/hogar.png" alt=""></a>
+            <h2 class="modak-regular">Problema 1</h2>
+            <a href="p2.html"><img src="../imagenes/flecha_derecha.png" alt=""></a>
+        </div>
+    </header>
+    <div class="descripcion">
+        <p>La CONAGUA requiere determinar el pago que debe  realizar una persona por el total de metros cúbicos que consume de agua.</p>
+    </div>
+    <form class="interfaz">
+        <div class="entrada">
+            <label for="num1">Metros cubicos</label>
+            <br>
+            <input type="number" id="num1" placeholder="metros cubicos">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="num2">Valor por metro</label>
+            <br>
+            <input type="number" id="num2" placeholder="valor">
+        </div>
+        <br>
+        <button type="button" onclick="metro()">Calcular</button>
+    </form>
+    <div class="resultado">
+        <p id="resul"></p>
+    </div>
+    <footer>
+            <p>Cinthia Guadalupe Nuñez Diaz 4G</p>
+    </footer>
+    <script src="../scripts/funciones.js"></script>
+</html>

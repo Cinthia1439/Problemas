@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema5</title>
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div>
+                <a href="../index.html"><img src="../imagenes/hogar.png" alt=""></a>
+                <a href="p4.html"><img src="../imagenes/flecha_izquierda.png" alt="" class="flecha_izq"></a>
+            </div>
+            <h2 class="modak-regular">Problema 5</h2>
+            <a href="p6.html"><img src="../imagenes/flecha_derecha.png" alt=""></a>
+        </div>
+    </header>
+    <div class="descripcion">
+    <p>Una empresa desea determinar el monto de un cheque que debe proporcionar a uno de sus empleados que tendrá que ir por equis número de días a la ciudad de Monterrey; los gastos que cubre la empresa son: hotel, comida y 100.00 pesos diarios para otros gastos. El monto debe estar desglosado para cada concepto.</p>
+    </div>
+    <form class="interfaz">
+        <div class="entrada">
+            <label for="dias">Numero de dias</label>
+            <br>
+            <input type="number" id="dias" placeholder="dias">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="hotel">Costo del hotel</label>
+            <br>
+            <input type="number" id="hotel" placeholder="por noche">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="comida">Costo de la comida</label>
+            <br>
+            <input type="number" id="comida" placeholder="por dia">
+        </div>
+        <br>
+        <button type="button" onclick="cheque()">Calcular</button>
+    </form>
+    <div class="resultado">
+        <p id="resul"></p>
+    </div>
+    <footer>
+            <p>Cinthia Guadalupe Nuñez Diaz 4G</p>
+    </footer>
+    <script src="../scripts/funciones.js"></script> 
+</body>
+</html>
